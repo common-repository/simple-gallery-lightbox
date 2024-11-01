@@ -1,0 +1,21 @@
+.simple_gallery_lightbox_wrapper {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background: rgba(0,0,0,0.80);
+  cursor:pointer;
+  display: none;
+  z-index: 9999;
+}
+
+.simple_gallery_lightbox_wrapper img {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
